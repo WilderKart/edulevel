@@ -1,0 +1,3095 @@
+{
+    "subjects": [
+        {
+            "id": "sub_math",
+            "slug": "matematicas",
+            "name": "Matemáticas",
+            "icon": "calculate",
+            "grade_level": 7,
+            "total_weeks": 4,
+            "description": "Números Enteros y Racionales"
+        },
+        {
+            "id": "sub_span",
+            "slug": "espanol",
+            "name": "Español",
+            "icon": "auto_stories",
+            "grade_level": 7,
+            "total_weeks": 4,
+            "description": "Comprensión Lectora y Escritura"
+        },
+        {
+            "id": "sub_sci",
+            "slug": "ciencias",
+            "name": "Ciencias Naturales",
+            "icon": "biotech",
+            "grade_level": 7,
+            "total_weeks": 4,
+            "description": "Entorno Vivo y Físico"
+        },
+        {
+            "id": "sub_soc",
+            "slug": "sociales",
+            "name": "Ciencias Sociales",
+            "icon": "public",
+            "grade_level": 7,
+            "total_weeks": 4,
+            "description": "Historia y Geografía"
+        },
+        {
+            "id": "sub_eng",
+            "slug": "ingles",
+            "name": "Inglés",
+            "icon": "language",
+            "grade_level": 7,
+            "total_weeks": 4,
+            "description": "A1/A2 Basics"
+        },
+        {
+            "id": "sub_tech",
+            "slug": "tecnologia",
+            "name": "Tecnología",
+            "icon": "computer",
+            "grade_level": 7,
+            "total_weeks": 4,
+            "description": "Informática y Lógica"
+        }
+    ],
+    "curriculum": [
+        {
+            "subject_id": "sub_math",
+            "weeks": [
+                {
+                    "week_number": 1,
+                    "title": "Fundamentos en Z",
+                    "description": "Introducción a los números enteros",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Conjunto Z (Números Enteros)",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "type": "video",
+                                    "data": "v40_7S86t6A",
+                                    "duration_min": 20,
+                                    "examples": [
+                                        "Ganar $10 (+10)",
+                                        "Bajar 3 pisos (-3)",
+                                        "El nivel del mar (0)"
+                                    ],
+                                    "youtube_id": "v40_7S86t6A",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "true_false",
+                                    "duration_min": 25,
+                                    "config": {
+                                        "questions": [
+                                            {
+                                                "statement": "¿El número -5 es un número entero?",
+                                                "correct": true
+                                            },
+                                            {
+                                                "statement": "¿Los números enteros incluyen decimales?",
+                                                "correct": false
+                                            },
+                                            {
+                                                "statement": "¿El cero se considera un número positivo?",
+                                                "correct": false
+                                            }
+                                        ]
+                                    }
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70,
+                                    "questions": [
+                                        {
+                                            "question": "¿Cuál de estos números NO pertenece al conjunto Z?",
+                                            "options": [
+                                                "-10",
+                                                "0",
+                                                "5.5",
+                                                "100"
+                                            ],
+                                            "correct_index": 2
+                                        },
+                                        {
+                                            "question": "¿Cómo se representa una deuda de 50 pesos?",
+                                            "options": [
+                                                "50",
+                                                "0",
+                                                "-50",
+                                                "D50"
+                                            ],
+                                            "correct_index": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Valor Absoluto",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "type": "text",
+                                    "data": "I1-d9I72PUI",
+                                    "duration_min": 20,
+                                    "examples": [
+                                        "| -5 | = 5",
+                                        "| 8 | = 8",
+                                        "La distancia nunca es negativa."
+                                    ],
+                                    "youtube_id": "I1-d9I72PUI",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "fill_blank",
+                                    "duration_min": 25,
+                                    "config": {
+                                        "sentence": "El valor absoluto de -12 es ___.",
+                                        "answer": "12"
+                                    }
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70,
+                                    "questions": [
+                                        {
+                                            "question": "¿Cuál es el valor absoluto de -20?",
+                                            "options": [
+                                                "-20",
+                                                "20",
+                                                "0",
+                                                "1"
+                                            ],
+                                            "correct_index": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Orden en Z (Mayor y Menor)",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "type": "interactive",
+                                    "data": "D9l0yG-U_S0",
+                                    "duration_min": 20,
+                                    "examples": [
+                                        "5 > -100",
+                                        "-2 > -10 (porque -2 está más a la derecha)",
+                                        "0 > -5"
+                                    ],
+                                    "youtube_id": "D9l0yG-U_S0",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "matching",
+                                    "duration_min": 25,
+                                    "config": {
+                                        "pairs": [
+                                            {
+                                                "left": "Mayor que 0",
+                                                "right": "Positivos"
+                                            },
+                                            {
+                                                "left": "Menor que 0",
+                                                "right": "Negativos"
+                                            },
+                                            {
+                                                "left": "-1 ___ -5",
+                                                "right": "Es mayor"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70,
+                                    "questions": [
+                                        {
+                                            "question": "¿Cuál signo es correcto para: -8 ___ -2?",
+                                            "options": [
+                                                ">",
+                                                "<",
+                                                "=",
+                                                "±"
+                                            ],
+                                            "correct_index": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "El Plano Cartesiano",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "type": "video",
+                                    "data": "kzOzYY-n-wQ",
+                                    "duration_min": 20,
+                                    "examples": [
+                                        "Punto (3, 2): 3 a la derecha, 2 hacia arriba.",
+                                        "Punto (-1, -5): 1 a la izquierda, 5 hacia abajo.",
+                                        "El origen siempre es (0,0)."
+                                    ],
+                                    "youtube_id": "kzOzYY-n-wQ",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "true_false",
+                                    "duration_min": 25,
+                                    "config": {
+                                        "questions": [
+                                            {
+                                                "statement": "¿El eje vertical se llama eje X?",
+                                                "correct": false
+                                            },
+                                            {
+                                                "statement": "¿El punto (0,0) es el origen?",
+                                                "correct": true
+                                            },
+                                            {
+                                                "statement": "¿En el punto (-2, 4), el número 4 está en el eje Y?",
+                                                "correct": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70,
+                                    "questions": [
+                                        {
+                                            "question": "¿En qué cuadrante ambos números son negativos?",
+                                            "options": [
+                                                "Cuadrante I",
+                                                "Cuadrante II",
+                                                "Cuadrante III",
+                                                "Cuadrante IV"
+                                            ],
+                                            "correct_index": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Suma (Igual Signo)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "type": "text",
+                                    "data": "aGJ00fU5Csw",
+                                    "duration_min": 20,
+                                    "examples": [
+                                        "(+5) + (+3) = +8",
+                                        "(-5) + (-3) = -8",
+                                        "Si debo 10 y pido prestado 5 más, debo 15."
+                                    ],
+                                    "youtube_id": "aGJ00fU5Csw",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "ordering",
+                                    "duration_min": 25,
+                                    "config": {
+                                        "items": [
+                                            "-15",
+                                            "-10",
+                                            "-5",
+                                            "5",
+                                            "10"
+                                        ],
+                                        "instructions": "Ordena los resultados de menor a mayor ganancia (o mayor a menor deuda)."
+                                    }
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70,
+                                    "questions": [
+                                        {
+                                            "question": "¿Cuál es el resultado de (-12) + (-8)?",
+                                            "options": [
+                                                "-20",
+                                                "20",
+                                                "-4",
+                                                "4"
+                                            ],
+                                            "correct_index": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 2,
+                    "title": "Operaciones en Z",
+                    "description": "Suma, resta, multiplicación y división",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Suma (Diferente signo)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "youtube_id": "8U9T8_gU55o",
+                                    "duration_min": 20,
+                                    "data": "8U9T8_gU55o",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "balance",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Resta de Enteros",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "target",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Multiplicación",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "memory",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "División Exacta",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "race",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Polinomios Aritméticos",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "defuse",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 3,
+                    "title": "Racionales (Q)",
+                    "description": "Introducción a fracciones",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Fracciones",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "slicing",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Equivalentes",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "balance",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Fracción a Decimal",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "bingo",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Orden en Q",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "ordering",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Suma Homogénea",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "construction",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 4,
+                    "title": "Dominio y Aplicación",
+                    "description": "Operaciones avanzadas y proyecto",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Suma Heterogénea",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "lab_mix",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Multiplicación Q",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "area_calc",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "División Q",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "distribution",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Ecuaciones Aditivas",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "magic_balance",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "type": "quiz",
+                                    "duration_min": 15,
+                                    "passing_score": 70
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "PROYECTO FINAL",
+                            "time_budget_min": 60,
+                            "difficulty": 5,
+                            "xp": 100,
+                            "unlocks_next": false,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 30,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "type": "minigame",
+                                    "gametype": "simulation_store",
+                                    "duration_min": 30
+                                },
+                                "evaluation": {
+                                    "type": "project",
+                                    "duration_min": 0,
+                                    "passing_score": 70
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject_id": "sub_span",
+            "weeks": [
+                {
+                    "week_number": 1,
+                    "title": "Comunicación",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Elementos Comunicación",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "youtube_id": "hXpD6o9G6o4",
+                                    "data": "hXpD6o9G6o4",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "gametype": "detective",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Funciones Lenguaje",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "classification",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Signo Lingüístico",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "pictionary",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Variedades Lingüísticas",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "style_corrector",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Resumen y Síntesis",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "highlighting",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 2,
+                    "title": "Narrativa",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Género Narrativo",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "puzzle_text",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "El Cuento",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "guided_reading",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Tipos de Narrador",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "voice_change",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Tiempo y Espacio",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "scenario_desc",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Leyenda y Mito",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "trivia",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 3,
+                    "title": "Lírica",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Género Lírico",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "word_cloud",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Verso y Estrofa",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "constructor",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "La Rima",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "rap_battle",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Figuras Literarias I",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "translator",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Figuras Literarias II",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "meme_literario",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 4,
+                    "title": "Gramática",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Sustantivo y Adjetivo",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "tagging",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "El Verbo",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "timeline",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Ortografía: Acentuación",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "lost_tilde",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Signos de Puntuación",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "text_traffic",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "PROYECTO FINAL",
+                            "time_budget_min": 60,
+                            "difficulty": 5,
+                            "xp": 100,
+                            "unlocks_next": false,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 30,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "story_writer",
+                                    "duration_min": 30
+                                },
+                                "evaluation": {
+                                    "duration_min": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject_id": "sub_sci",
+            "weeks": [
+                {
+                    "week_number": 1,
+                    "title": "La Célula",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Teoría Celular",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "youtube_id": "mO2o-FjB6F0",
+                                    "data": "mO2o-FjB6F0",
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "gametype": "microscope",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Procariota vs Eucariota",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "versus",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Animal vs Vegetal",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "assemble_cell",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Organelos Celulares",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "functions_match",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Transporte Celular",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "type": "video",
+                                    "data": "sK-n9c5_Sio",
+                                    "youtube_id": "sK-n9c5_Sio",
+                                    "duration_min": 20,
+                                    "video_pending": false
+                                },
+                                "practice": {
+                                    "gametype": "simulator_membrane",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 2,
+                    "title": "Niveles de Organización",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "De Célula a Organismo",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "tower",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Tejidos Animales",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "biopsy",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Tejidos Vegetales",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "pipelines",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Sistema Digestivo",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "apple_route",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Respiración y Circulación",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "pumping",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 3,
+                    "title": "Materia",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Propiedades de la Materia",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "density_lab",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Estados de la Materia",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "heater",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Cambios de Estado",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "water_cycle",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Átomo (Intro)",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "build_atom",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Tabla Periódica (Intro)",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "tetris_chem",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 4,
+                    "title": "Ecología",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Ecosistemas",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "explorer",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Cadenas Tróficas",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "food_web",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Ciclos Biogeoquímicos",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "puzzle_cycle",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Relaciones Interespecíficas",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "case_study",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "PROYECTO FINAL",
+                            "time_budget_min": 60,
+                            "difficulty": 5,
+                            "xp": 100,
+                            "unlocks_next": false,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 30,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "eco_city",
+                                    "duration_min": 30
+                                },
+                                "evaluation": {
+                                    "duration_min": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject_id": "sub_soc",
+            "weeks": [
+                {
+                    "week_number": 1,
+                    "title": "Imperio",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Caída del Imperio Romano",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "history_map",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Invasiones Bárbaras",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "routes",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Imperio Bizantino",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "mosaic",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Surgimiento del Islam",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "expansion",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Introducción Edad Media",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "timeline",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 2,
+                    "title": "Feudalismo",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "El Sistema Feudal",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "pyramid",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "La Economía Feudal",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "medieval_farm",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "La Iglesia Medieval",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "codex_copy",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Castillos y Caballeros",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "defense",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Crisis del Feudalismo",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "diagnosis",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 3,
+                    "title": "Geografía",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Continentes y Océanos",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "globe_spin",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Geografía de Europa",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "flyover",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Geografía de América",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "puzzle_cont",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Climas y Paisajes",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "clothing",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Demografía Básica",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "charts",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 4,
+                    "title": "Civismo",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Derechos Humanos",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "judge",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "La Democracia",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "vote_sim",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "La Constitución",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "law_maker",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Convivencia y Paz",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "mediator",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "PROYECTO FINAL",
+                            "time_budget_min": 60,
+                            "difficulty": 5,
+                            "xp": 100,
+                            "unlocks_next": false,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 30,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "un_mission",
+                                    "duration_min": 30
+                                },
+                                "evaluation": {
+                                    "duration_min": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject_id": "sub_eng",
+            "weeks": [
+                {
+                    "week_number": 1,
+                    "title": "Basics",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Personal Pronouns & To Be",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "chat_sim",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Greetings & Farewells",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "scramble",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "The Alphabet & Spelling",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "spelling_bee",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Numbers 1-100",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "bingo",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Countries & Nationalities",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "passport",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 2,
+                    "title": "Routine",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Simple Present (Affirmative)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "routine_order",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Daily Routine Verbs",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "memory",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "The Time",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "clock",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Simple Present (Negative)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "corrector",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Days & Months",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "agenda",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 3,
+                    "title": "Likes & Hobbies",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Likes & Dislikes",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "tinder_food",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Questions (Do/Does)",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "interview",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Sports & Hobbies",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "association",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Can / Can't",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "talent_show",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Jobs & Occupations",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "uniform",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 4,
+                    "title": "Family",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Family Members",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "family_tree",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Possessive Adjectives",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "owners",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Physical Description",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "police_sketch",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Clothes & Colors",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "shopping",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "PROYECTO FINAL",
+                            "time_budget_min": 60,
+                            "difficulty": 5,
+                            "xp": 100,
+                            "unlocks_next": false,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 30,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "video_blog",
+                                    "duration_min": 30
+                                },
+                                "evaluation": {
+                                    "duration_min": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subject_id": "sub_tech",
+            "weeks": [
+                {
+                    "week_number": 1,
+                    "title": "Hardware y Software",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Historia del Computador",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "timeline",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Hardware: Partes Internas",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "pc_builder",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Periféricos",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "classification",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Software y SO",
+                            "time_budget_min": 60,
+                            "difficulty": 1,
+                            "xp": 50,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "desktop",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Archivos y Carpetas",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "cleanup",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 2,
+                    "title": "Ofimática",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Procesador de Texto (Intro)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "formatting",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Edición Básica",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "text_puzzle",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Presentaciones (Intro)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "slide_design",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Hoja de Cálculo (Intro)",
+                            "time_budget_min": 60,
+                            "difficulty": 2,
+                            "xp": 60,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "battleship_cells",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Mecanetografía",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "typer_shark",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 3,
+                    "title": "Internet",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "¿Cómo funciona Internet?",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "route_trace",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Navegadores y Buscadores",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "browser_ui",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Correo Electrónico",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "compose",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Seguridad Digital",
+                            "time_budget_min": 60,
+                            "difficulty": 3,
+                            "xp": 70,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "hacker_spot",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "Netiqueta",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 100,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "moderator",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "week_number": 4,
+                    "title": "Lógica",
+                    "unlock_rule": {
+                        "min_average": 70,
+                        "else_mode": "reinforcement"
+                    },
+                    "lessons": [
+                        {
+                            "day_index": 0,
+                            "title": "Algoritmos (Intro)",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "sandwich_algo",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 1,
+                            "title": "Diagramas de Flujo",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "flow_chart",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 2,
+                            "title": "Bucles (Loops)",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "robot_move",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 3,
+                            "title": "Condicionales (If/Else)",
+                            "time_budget_min": 60,
+                            "difficulty": 4,
+                            "xp": 80,
+                            "unlocks_next": true,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 20,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "train_switch",
+                                    "duration_min": 25
+                                },
+                                "evaluation": {
+                                    "duration_min": 15
+                                }
+                            }
+                        },
+                        {
+                            "day_index": 4,
+                            "title": "PROYECTO FINAL",
+                            "time_budget_min": 60,
+                            "difficulty": 5,
+                            "xp": 100,
+                            "unlocks_next": false,
+                            "content": {
+                                "concept": {
+                                    "duration_min": 30,
+                                    "video_pending": true
+                                },
+                                "practice": {
+                                    "gametype": "maze_code",
+                                    "duration_min": 30
+                                },
+                                "evaluation": {
+                                    "duration_min": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
