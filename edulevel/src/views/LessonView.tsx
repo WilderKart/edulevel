@@ -45,13 +45,13 @@ export function LessonView({ lesson, progress: dbProgress, onActivity, onBack }:
         "PROYECTO FINAL": "mB50d68rN8U",
 
         // --- ESPAÑOL ---
-        "Elementos Comunicación": "rDk-XMg9B9w", // Rocio Carreon
-        "Funciones Lenguaje": "pDJ300rA0jc", // Funciones del lenguaje
-        "Signo Lingüístico": "5238L7LrfiO", // Significado y Significante
+        "Elementos Comunicación": "rDk-XMg9B9w",
+        "Funciones Lenguaje": "pDJ300rA0jc",
+        "Signo Lingüístico": "5238L7LrfiO",
         "Variedades Lingüísticas": "Gp4A8E8ueVL",
         "Resumen y Síntesis": "GPY8KF8eitA",
         "Género Narrativo": "HOHGC_xnrmK",
-        "El Cuento": "TyUjJg4jP7I", // Happy Learning
+        "El Cuento": "TyUjJg4jP7I",
         "Tipos de Narrador": "XbL-kvrrQ6Y",
         "Tiempo y Espacio": "H6TaHYKzx_Y",
         "Leyenda y Mito": "FBJiFxiVORr",
@@ -66,16 +66,14 @@ export function LessonView({ lesson, progress: dbProgress, onActivity, onBack }:
         "Signos de Puntuación": "0CsmK8E94GK",
 
         // --- CIENCIAS NATURALES ---
-        "Teoría Celular": "aoj9oGmGGgQ", // Happy Learning - La Célula
-        "Procariota vs Eucariota": "5Y3qM4Z8k5I", // Happy Learning
-        "Animal vs Vegetal": "PseudoID_Cell", // Placeholder
+        "Teoría Celular": "aoj9oGmGGgQ",
+        "Procariota vs Eucariota": "5Y3qM4Z8k5I",
         "Organelos Celulares": "Hdnr6xOd0E-",
-        "Transporte Celular": "kY41yS5x-4U", // Khan Academy
-        "De Célula a Organismo": "aoj9oGmGGgQ", // Niveles (Repetido o similar)
-        "Tejidos Animales": "PseudoID_Tif",
-        "Sistema Digestivo": "5DUIc9BchOk", // Happy Learning
-        "Respiración y Circulación": "Wq_7cZc7h2s", // Happy Learning
-        "Propiedades de la Materia": "swcjamDFsn0", // Happy Learning
+        "Transporte Celular": "kY41yS5x-4U",
+        "De Célula a Organismo": "aoj9oGmGGgQ",
+        "Sistema Digestivo": "5DUIc9BchOk",
+        "Respiración y Circulación": "Wq_7cZc7h2s",
+        "Propiedades de la Materia": "swcjamDFsn0",
         "Estados de la Materia": "c4n-yD1sZ5s",
         "Cambios de Estado": "xZlp4Y291M4",
         "Átomo (Intro)": "D0V-N3TrIkY",
@@ -83,23 +81,19 @@ export function LessonView({ lesson, progress: dbProgress, onActivity, onBack }:
         "Ecosistemas": "XKSgZ0QdgAc",
 
         // --- CIENCIAS SOCIALES ---
-        "Caída del Imperio Romano": "UF_yHrFP1Ls", // Happy Learning
+        "Caída del Imperio Romano": "UF_yHrFP1Ls",
         "Invasiones Bárbaras": "P-e2f4J0aYc",
-        "Imperio Bizantino": "GjEnSgnlD8Q", // Edad Media General
-        "Surgimiento del Islam": "PseudoID_Islam",
-        "Introducción Edad Media": "0CnXN8_z-bU", // Happy Learning
-        "El Sistema Feudal": "Vy_CyG1aWno", // Academia Play
-        "La Economía Feudal": "PseudoID_FeudalEco",
-        "Continentes y Océanos": "mnR2MTjOBG4", // Happy Learning
-        "Geografía de Europa": "PseudoID_Euro",
-        "Geografía de América": "PseudoID_Amer",
-        "Derechos Humanos": "PPe5H81Xf2E", // Happy Learning
-        "La Democracia": "B9d1u_D7I-Y", // Happy Learning
+        "Imperio Bizantino": "GjEnSgnlD8Q",
+        "Introducción Edad Media": "0CnXN8_z-bU",
+        "El Sistema Feudal": "Vy_CyG1aWno",
+        "Continentes y Océanos": "mnR2MTjOBG4",
+        "Derechos Humanos": "PPe5H81Xf2E",
+        "La Democracia": "B9d1u_D7I-Y",
 
         // --- INGLÉS ---
         "Personal Pronouns & To Be": "Z-mX4c3K3gA",
         "Greetings & Farewells": "Fw0rdSHZ6yY",
-        "The Alphabet & Spelling": "75p-N9YKqNo", // ABC Song
+        "The Alphabet & Spelling": "75p-N9YKqNo",
         "Numbers 1-100": "e0dJWfQHF8Y",
         "Countries & Nationalities": "l6A2EFkjXq4",
         "Simple Present (Affirmative)": "L9OAbtSTPRg",
@@ -107,11 +101,9 @@ export function LessonView({ lesson, progress: dbProgress, onActivity, onBack }:
         "The Time": "fq2tRfHu5s8",
 
         // --- TECNOLOGÍA ---
-        "Historia del Computador": "_v7U_I0W7c8", // Happy Learning
+        "Historia del Computador": "_v7U_I0W7c8",
         "Hardware y Software": "n_69cZzAbM8",
-        "Periféricos": "PseudoID_Peri",
-        "Procesador de Texto (Intro)": "PseudoID_Word",
-        "¿Cómo funciona Internet?": "iC40s9-tOQo", // Happy Learning
+        "¿Cómo funciona Internet?": "iC40s9-tOQo",
         "Seguridad Digital": "9-z75_kXQyA"
     };
 
